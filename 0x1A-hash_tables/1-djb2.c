@@ -1,4 +1,4 @@
-include "hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_djb2 - function that generates a random number through
