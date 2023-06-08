@@ -7,11 +7,25 @@
  */
 void _puts_recursion(char *S)
 {
-	if (*S != '\0')
+	if (*S == '\0')
+	{
+		return;
+	}
+	else
 	{
 		_putchar(*S);
 		_puts_recursion(s + 1);
 	}
-	else
-		_putcharr('\n');
+}
+
+void _putchar(char c)
+{
+	putchar(c)
+}
+
+int main()
+{
+	char *s = "Hello, World!";
+	_puts_recursion(s);
+	return (0);
 }
