@@ -1,31 +1,22 @@
 #include "main.h"
 
 /**
- * _puts_recursion - prints a string, followed by a new line.
- * @s: string
- * Return: no return.
+ * main - check the code
+ *
+ * Return - always 0
  */
-void _puts_recursion(char *S)
+int main(void)
 {
-	if (*S == '\0')
+	_puts_recursion(char *s)
 	{
-		return;
+		if (*s == '\0')
+		{
+			putchar('\n');
+			return;
+		}
+		else
+		{
+			putchar(*s);
+			_puts_recursion(S + 1);
+		}
 	}
-	else
-	{
-		_putchar(*S);
-		_puts_recursion(s + 1);
-	}
-}
-
-void _putchar(char c)
-{
-	putchar(c)
-}
-
-int main()
-{
-	char *s = "Hello, World!";
-	_puts_recursion(s);
-	return (0);
-}
