@@ -3,7 +3,7 @@
 /**
  * factorial - returns the factorial of a given number.
  * @n: input number.
- * Returns factorial
+ * Return - Always 0
  */
 int factorial(int n)
 {
