@@ -1,7 +1,7 @@
 # Project 0x00. C - Hello World
 
 This project was undertaken during the **alx Software Engineering Programme**. It aims in helping in the
-the learning of the low-level **C programming Language**.
+the learning of the low-level **C programming Language**. It covers what is entry point, basic commands (puts, printf, putchar), compilation process ith gcc in **C Language**.
 
 ## Project files
 
