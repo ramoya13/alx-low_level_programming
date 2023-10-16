@@ -13,6 +13,6 @@ and its close relationship with the hardware.
 - **Close relationship with hardware**
   
   C has close realationship with hardware resources such as memory, registers and I/O operations. It allows direct
-  manipulation of memory addresses.
+  manipulation of memory addresses. Low level languages are still used in IOT and machine learning.
 
   
